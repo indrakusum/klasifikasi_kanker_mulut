@@ -1,0 +1,50 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hai","Haii","Hola"],
+     "responses": ["Halo, apa ada yang bisa saya bantu?"],
+     "context": [""]
+    },
+    {"tag": "penyebab",
+     "patterns": ["penyebab kanker mulut","apa penyebab kanker mulut","kanker mulut"],
+     "responses": ["Terdapat beberapa penyebab kanker mulut terjadi, salah satunya adalah merokok. Biasanya, gejala awal penyakit kanker mulut adalah munculnya luka pada jaringan tersebut namun tidak kunjung sembuh. Karena itulah, kanker mulut seringkali sulit dibedakan dengan sariawan atau radang tenggorokan."],
+     "context": [""]
+    },
+    {"tag": "deteksi",
+     "patterns": ["cara mendeteksi kanker mulut","bagaimana cara mendeteksinya","cara mendeteksi"],
+     "responses": ["Terdapat sariawan atau luka di rongga mulut yang berulang dan tidak kunjung sembuh sampai lebih dari 2 minggu.",
+
+     "Sariawan disertai dengan perdarahan.",
+     
+     "Munculnya bercak merah atau putih di rongga mulut.",
+     
+     "Munculnya benjolan atau penebalan di dinding mulut yang tidak hilang dalam waktu lama.",
+     
+     "Mati rasa dan nyeri di mulut.",
+     
+     "Kesulitan menggerakkan lidah atau rahang.",
+     
+     "Nyeri hebat di tenggorokan dan telinga.",
+     
+     "Kesulitan untuk menelan dan berbicara.",
+     
+     "Penurunan berat badan secara drastis tanpa sebab yang jelas."],
+     "context": [""]
+    },
+    {"tag": "mengobati",
+     "patterns": ["langkah-langkah mengobati","cara mengobati","cara mengobati kanker mulut"],
+     "responses": ["Sorry, can't understand you"],
+     "context": [""]
+    },
+    {"tag": "cegah",
+     "patterns": ["cara mencegah kanker mulut","pencegahan kanker mulut","bagaimana cara mencegah kanker mulut"],
+     "responses": ["Sorry, can't understand you"],
+     "context": [""]
+    },
+    {"tag": "random",
+     "patterns": ["How to check Adverse drug reaction?", "Open adverse drugs module", "Give me a list of drugs causing adverse behavior", "List all drugs suitable for patient with adverse reaction", "Which drugs dont have adverse reaction?" ],
+     "responses": ["Sorry, can't understand you"],
+     "context": [""]
+    }
+    
+]
+}
